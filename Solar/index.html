@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Solar - Powering the Future with Infinite Clean Energy</title>
+    <meta name="description" content="India's leading renewable solar company. Clean Light Theme, visual calculators, PM Surya Ghar subsidy systems, and live ROI dashboards.">
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+
+    <!-- 1. SPLASH SCREEN OVERLAY (Light Premium Visual) -->
+    <div id="splash-screen" class="splash-overlay">
+        <div class="splash-content animate-fade">
+            <div class="splash-logo-container">
+                <svg class="splash-logo" width="84" height="84" viewBox="0 0 48 48" fill="none">
+                    <path d="M14 16 C8.48 16 4 20.48 4 26 C4 31.52 8.48 36 14 36 C19.04 36 22 31 24 26 C26 21 28.96 16 34 16 C39.52 16 44 20.48 44 26 C44 31.52 39.52 36 34 36 C28.96 36 26 31 24 26 C22 21 19.04 16 14 16 Z" stroke="#FDB813" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="24" cy="26" r="4.5" fill="#FDB813"/>
+                </svg>
+                <div class="light-ray-effect"></div>
+            </div>
+            <h1 class="splash-title">INFINITY SOLAR</h1>
+            <p class="splash-tagline">Powering the Future with Infinite Clean Energy</p>
+            <div class="loading-bar-container">
+                <div id="splash-progress" class="loading-progress"></div>
+            </div>
+            <span class="loading-subtext">Calibrating Intelligent Solar Arrays...</span>
+        </div>
+    </div>
+
+    <!-- MAIN APP WRAPPER -->
+    <div id="app-wrapper" style="opacity: 0;">
+
+        <!-- NAVBAR -->
+        <header class="main-navbar">
+            <div class="nav-container">
+                <a href="#home" class="nav-logo-link">
+                    <svg class="nav-logo" width="34" height="34" viewBox="0 0 48 48" fill="none">
+                        <path d="M14 16 C8.48 16 4 20.48 4 26 C4 31.52 8.48 36 14 36 C19.04 36 22 31 24 26 C26 21 28.96 16 34 16 C39.52 16 44 20.48 44 26 C44 31.52 39.52 36 34 36 C28.96 36 26 31 24 26 C22 21 19.04 16 14 16 Z" stroke="#FDB813" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="24" cy="26" r="4.5" fill="#FDB813"/>
+                    </svg>
+                    <span class="nav-brand-name">INFINITY SOLAR</span>
+                </a>
+                
+                <nav class="nav-links">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#solutions">Solutions</a>
+                    <a href="#products">Products</a>
+                    <a href="#calculator">Calculator</a>
+                    <a href="#projects">Showcase</a>
+                    <a href="#subsidy">Subsidy</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#careers">Careers</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#admin" class="nav-admin-btn">Admin Panel</a>
+                </nav>
+
+                <div class="nav-hamburger" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- 2. HOME SECTION (HERO) -->
+        <section id="home" class="section-container hero-section">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <span class="hero-tag animate-slide-right">THE FUTURE OF POWER</span>
+                    <h1 class="hero-title animate-slide-up">India's Most Trusted Solar Energy Company</h1>
+                    <p class="hero-subtitle animate-slide-up">Reduce Electricity Bills by up to 90% with Smart Solar Solutions. Transition to cleaner energy today.</p>
+                    <div class="hero-ctas animate-slide-up">
+                        <a href="#contact" class="btn btn-yellow">Get Free Quote</a>
+                        <a href="#calculator" class="btn btn-navy">Calculate Savings</a>
+                        <a href="#projects" class="btn btn-outline">Explore Projects</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual animate-scale">
+                    <!-- Solar Farm Glowing Layout -->
+                    <div class="solar-graphic-container">
+                        <svg class="graphic-sun-pulse" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="16" fill="url(#sunLightGradient)"/>
+                            <path d="M50 8 V20 M50 80 V92 M8 50 H20 M80 50 H92 M20 20 L30 30 M70 70 L80 80 M20 70 L30 60 M70 20 L80 30" stroke="#FDB813" stroke-width="2.5" stroke-linecap="round"/>
+                            <defs>
+                                <radialGradient id="sunLightGradient" cx="50%" cy="50%" r="50%">
+                                    <stop offset="0%" stop-color="#FFF8D6"/>
+                                    <stop offset="100%" stop-color="#FDB813"/>
+                                </radialGradient>
+                            </defs>
+                        </svg>
+
+                        <!-- Gently Floating KPI Cards -->
+                        <div class="floating-kpi-card kpi-1 glass-card">
+                            <span class="kpi-val">500MW+</span>
+                            <span class="kpi-lbl">Total Capacity</span>
+                        </div>
+                        <div class="floating-kpi-card kpi-2 glass-card">
+                            <span class="kpi-val">10,000+</span>
+                            <span class="kpi-lbl">Active Projects</span>
+                        </div>
+                        <div class="floating-kpi-card kpi-3 glass-card">
+                            <span class="kpi-val">98%</span>
+                            <span class="kpi-lbl">Customer Rating</span>
+                        </div>
+                        <div class="floating-kpi-card kpi-4 glass-card">
+                            <span class="kpi-val">1.7B</span>
+                            <span class="kpi-lbl">Units Generated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEGA STATISTICS CARD -->
+            <div class="mega-stats-grid">
+                <div class="mega-stat-card glass-card">
+                    <h3 class="mega-stat-number" data-target="10000">0</h3>
+                    <span class="mega-stat-label">Projects Completed</span>
+                </div>
+                <div class="mega-stat-card glass-card">
+                    <h3 class="mega-stat-number" data-target="500">0</h3>
+                    <span class="mega-stat-label">MW Installed Capacity</span>
+                </div>
+                <div class="mega-stat-card glass-card">
+                    <h3 class="mega-stat-number" data-target="250">0</h3>
+                    <span class="mega-stat-label">Solar Experts</span>
+                </div>
+                <div class="mega-stat-card glass-card">
+                    <h3 class="mega-stat-number" data-target="100">0</h3>
+                    <span class="mega-stat-label">Cities Served</span>
+                </div>
+                <div class="mega-stat-card glass-card">
+                    <h3 class="mega-stat-number" data-target="25">0</h3>
+                    <span class="mega-stat-label">Years Asset Warranty</span>
+                </div>
+                <div class="mega-stat-card glass-card">
+                    <h3 class="mega-stat-number highlight" data-target="98">0</h3>
+                    <span class="mega-stat-label">Customer Satisfaction</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ABOUT US SECTION -->
+        <section id="about" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">WHO WE ARE</span>
+                <h2 class="section-title">Redefining Power for the Next Century</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-story-card glass-card">
+                    <h3>Infinity Story</h3>
+                    <p>Infinity Solar is an enterprise-level renewable energy pioneer, delivering high-performance, futuristic solar systems across India. Combining SpaceX-level engineering and Apple-like premium design details, we set new standards in energy generation, efficiency, and reliability.</p>
+                    <div class="achievements-micro-grid">
+                        <div class="ach-pill"><span>8+</span> Years of Service</div>
+                        <div class="ach-pill"><span>12,000+</span> Complete Projects</div>
+                        <div class="ach-pill green-pill"><span>4.2M Tons</span> CO₂ Saved</div>
+                    </div>
+                </div>
+
+                <div class="about-vvm-container">
+                    <div class="vvm-card glass-card">
+                        <h4>Our Vision</h4>
+                        <p>To accelerate India's transition to 100% clean, sustainable energy, making electricity abundant, infinite, and affordable for every citizen and industry.</p>
+                    </div>
+                    <div class="vvm-card glass-card">
+                        <h4>Our Mission</h4>
+                        <p>Deploying next-gen high-efficiency solar plants powered by cutting-edge smart monitoring, ensuring absolute clean energy energy-independence.</p>
+                    </div>
+                    <div class="vvm-card glass-card">
+                        <h4>Core Values</h4>
+                        <p>Innovation First, Engineering Integrity, Uncompromising Quality, Customer Centricity, and Environmental Stewardship.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INTERACTIVE SOLAR JOURNEY (SCROLL-GUIDED TIMELINE) -->
+            <div class="timeline-wrapper">
+                <h3 class="timeline-header">The Interactive Solar Journey</h3>
+                <div class="journey-timeline-track">
+                    <div class="journey-step glass-card" data-step="1">
+                        <div class="step-num">01</div>
+                        <h5>Consultation</h5>
+                        <p>Evaluate utility loads and set solar goals through initial dynamic assessment.</p>
+                    </div>
+                    <div class="journey-step glass-card" data-step="2">
+                        <div class="step-num">02</div>
+                        <h5>Site Survey</h5>
+                        <p>Technical mapping of structure, shading, shadows, and roof durability levels.</p>
+                    </div>
+                    <div class="journey-step glass-card" data-step="3">
+                        <div class="step-num">03</div>
+                        <h5>Smart Design</h5>
+                        <p>SpaceX-grade structural drafting with optimized angles for maximum PV capture.</p>
+                    </div>
+                    <div class="journey-step glass-card" data-step="4">
+                        <div class="step-num">04</div>
+                        <h5>Approval</h5>
+                        <p>Accelerating DISCOM Net-Metering applications and technical state sanctions.</p>
+                    </div>
+                    <div class="journey-step glass-card" data-step="5">
+                        <div class="step-num">05</div>
+                        <h5>Installation</h5>
+                        <p>Fast deployment of N-Type TopCon cells by our certified expert crews.</p>
+                    </div>
+                    <div class="journey-step glass-card" data-step="6">
+                        <div class="step-num">06</div>
+                        <h5>IoT Monitoring</h5>
+                        <p>Go live on cloud dashboards. Watch daily production charts update in real-time.</p>
+                    </div>
+                    <div class="journey-step glass-card" data-step="7">
+                        <div class="step-num">07</div>
+                        <h5>Savings</h5>
+                        <p>Enjoy a massive bill reduction of up to 90% and stable asset yield for 25+ years.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SOLAR SOLUTIONS SECTION -->
+        <section id="solutions" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">SERVICES CATALOG</span>
+                <h2 class="section-title">Bespoke Clean Energy Systems</h2>
+            </div>
+
+            <div class="solutions-grid">
+                <!-- 1 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2"/>
+                        </svg>
+                    </div>
+                    <h4>Residential Solar</h4>
+                    <p>Transform your home into a self-powering green oasis with smart net-metered rooftop setups.</p>
+                    <span class="sol-benefit">✓ Up to 90% Bill Reduction</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 2 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M3 21h18M9 21V9m6 12V5"/>
+                        </svg>
+                    </div>
+                    <h4>Commercial Solar</h4>
+                    <p>Substantially cut operational overheads for offices, malls, and private complexes.</p>
+                    <span class="sol-benefit">✓ Tax Depreciation Benefits</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 3 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="2"/><path d="M12 2v20M2 12h20"/>
+                        </svg>
+                    </div>
+                    <h4>Industrial Solar</h4>
+                    <p>Heavy-duty solar installations with high-efficiency output to power manufacturing lines.</p>
+                    <span class="sol-benefit">✓ Peak Load Management</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 4 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h4>Agricultural Solar</h4>
+                    <p>Empower farms with clean pumping systems, dry chambers, and off-grid power grids.</p>
+                    <span class="sol-benefit">✓ Govt Subsidized Rates</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 5 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/>
+                        </svg>
+                    </div>
+                    <h4>Government Projects</h4>
+                    <p>Partnering with municipalities and government entities for utility-scale solar farms.</p>
+                    <span class="sol-benefit">✓ Utility-scale grid setups</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 6 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h4>Solar Water Pumps</h4>
+                    <p>High-discharge hybrid pumps operating efficiently even during low sunlight periods.</p>
+                    <span class="sol-benefit">✓ Zero Diesel/Fuel Expense</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 7 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M12 2v20 M17 5H9.5a3.5 3.5 0 0 0 0 7h5"/>
+                        </svg>
+                    </div>
+                    <h4>Solar Street Lights</h4>
+                    <p>Intelligent, auto-dimming smart street lights with built-in LFP battery storage.</p>
+                    <span class="sol-benefit">✓ Dynamic Motion Dimming</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 8 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <rect x="2" y="7" width="16" height="12" rx="2"/><path d="M22 11v2M6 7v12"/>
+                        </svg>
+                    </div>
+                    <h4>Solar Battery Storage</h4>
+                    <p>Tesla-like intelligent storage solutions for continuous 24/7 backup power access.</p>
+                    <span class="sol-benefit">✓ 6,000+ Cycles (LFP Cell)</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 9 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h2"/>
+                            <circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>
+                        </svg>
+                    </div>
+                    <h4>Solar Carports</h4>
+                    <p>Provide shade for electric vehicles while capturing solar energy for EV fast chargers.</p>
+                    <span class="sol-benefit">✓ Dual Shading &amp; EV Fueling</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+                <!-- 10 -->
+                <div class="solution-card glass-card">
+                    <div class="sol-icon-bg">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h4>Microgrid Solutions</h4>
+                    <p>Off-grid community power hubs delivering power to remote industrial or village nodes.</p>
+                    <span class="sol-benefit">✓ Autonomous Energy Nodes</span>
+                    <a href="#contact" class="sol-link">Learn More &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PRODUCTS SECTION -->
+        <section id="products" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">HARDWARE SUITE</span>
+                <h2 class="section-title">Futuristic Renewable Hardware</h2>
+            </div>
+
+            <!-- Product Category Tabs -->
+            <div class="product-tabs">
+                <button class="tab-btn active" onclick="switchProductTab('panels')">Solar Panels</button>
+                <button class="tab-btn" onclick="switchProductTab('inverters')">Smart Inverters</button>
+                <button class="tab-btn" onclick="switchProductTab('storage')">Battery Storage</button>
+                <button class="tab-btn" onclick="switchProductTab('accessories')">Accessories</button>
+            </div>
+
+            <!-- Product Cards Container -->
+            <div class="products-grid" id="product-list-container">
+                <!-- Loaded dynamically by JS -->
+            </div>
+
+            <!-- Advanced Comparison Table -->
+            <div class="comparison-wrapper">
+                <h3 class="text-center" style="margin-bottom: 24px;">Technology Feature Comparison</h3>
+                <div class="comparison-table-scroll">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Features</th>
+                                <th>Mono PERC Panels</th>
+                                <th>TopCon N-Type Panels</th>
+                                <th>Bifacial Dual Glass</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Peak Efficiency</td>
+                                <td>21.2%</td>
+                                <td class="text-green">22.8%</td>
+                                <td>22.4%</td>
+                            </tr>
+                            <tr>
+                                <td>Temperature Coefficient</td>
+                                <td>-0.34%/°C</td>
+                                <td class="text-green">-0.30%/°C</td>
+                                <td>-0.32%/°C</td>
+                            </tr>
+                            <tr>
+                                <td>Rear Side Bifacial Yield</td>
+                                <td>Not Available</td>
+                                <td>Up to 15%</td>
+                                <td class="text-green">Up to 25%</td>
+                            </tr>
+                            <tr>
+                                <td>Warranty Duration</td>
+                                <td>25 Years</td>
+                                <td>25 Years</td>
+                                <td class="text-green">30 Years</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. PROJECT EXPLORER SECTION -->
+        <section id="projects" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">PORTFOLIO</span>
+                <h2 class="section-title">Infinity Landmark Showcase</h2>
+            </div>
+
+            <!-- Search and Filter Bar -->
+            <div class="explorer-filter-bar glass-card">
+                <input type="text" id="project-search" placeholder="Search by location or client name..." oninput="handleProjectSearch(this.value)">
+                
+                <div class="filter-dropdowns">
+                    <select id="project-category-select" onchange="handleProjectCatSelect(this.value)">
+                        <option value="all">All Categories</option>
+                        <option value="residential">Residential</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="industrial">Industrial</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Portfolio Cards Grid -->
+            <div class="portfolio-grid" id="portfolio-list">
+                <!-- Rendered dynamically by JS -->
+            </div>
+
+            <!-- Expandable Case Studies Section -->
+            <div class="case-study-section">
+                <h3 class="case-header-title text-center">Interactive Case Studies</h3>
+                <div class="case-studies-accordion" id="case-studies-container">
+                    <!-- Dynamic details with click expansion (Problem, Solution, ROI) -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. LIVE ENERGY DASHBOARD SECTION -->
+        <section id="dashboard" class="section-container active-section">
+            <div class="section-header-block">
+                <span class="section-tag">TELEMETRY DATA</span>
+                <h2 class="section-title">Live Energy Generation Dashboard</h2>
+            </div>
+
+            <div class="dashboard-grid">
+                <!-- Stats Overview -->
+                <div class="dash-metrics-container">
+                    <div class="dash-metric-card glass-card">
+                        <span class="lbl">TODAY'S ENERGY GENERATED</span>
+                        <strong class="val text-yellow" id="dash-energy">2,410 kWh</strong>
+                    </div>
+                    <div class="dash-metric-card glass-card">
+                        <span class="lbl">MONTHLY CASH SAVINGS</span>
+                        <strong class="val text-green" id="dash-savings">₹2,84,500</strong>
+                    </div>
+                    <div class="dash-metric-card glass-card">
+                        <span class="lbl">TOTAL CO₂ OFFSET</span>
+                        <strong class="val" id="dash-co2">48.2 Tons</strong>
+                    </div>
+                    <div class="dash-metric-card glass-card">
+                        <span class="lbl">PLANTED TREES OFFSET</span>
+                        <strong class="val text-green" id="dash-trees">2,410 Trees</strong>
+                    </div>
+                </div>
+
+                <!-- Live Canvas Chart Card -->
+                <div class="dash-chart-card glass-card">
+                    <div class="chart-header">
+                        <h4>Real-Time Hourly Load Generation</h4>
+                        <span class="live-indicator">● TRANSMITTING LIVE</span>
+                    </div>
+                    <div class="canvas-wrapper">
+                        <canvas id="energy-chart" width="560" height="280"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. SOLAR ROI CENTER (SAVINGS CALCULATOR) -->
+        <section id="calculator" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">ROI CALCULATOR</span>
+                <h2 class="section-title">Calculate Your Clean Energy Returns</h2>
+            </div>
+
+            <div class="calculator-grid">
+                <div class="calculator-inputs glass-card">
+                    <h3>Input Details</h3>
+                    
+                    <div class="input-group">
+                        <label for="monthly-bill">Monthly Electricity Bill: <span id="bill-display">₹8,500</span></label>
+                        <input type="range" id="monthly-bill" min="1000" max="50000" step="500" value="8500">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="roof-area">Roof Shading-Free Area: <span id="area-display">400 sq.ft</span></label>
+                        <input type="range" id="roof-area" min="100" max="5000" step="50" value="400">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="state-select">Select Your Location</label>
+                        <select id="state-select" class="glass-input">
+                            <option value="karnataka">Karnataka (BESCOM)</option>
+                            <option value="maharashtra">Maharashtra (MSEDCL)</option>
+                            <option value="gujarat">Gujarat (MGVCL)</option>
+                            <option value="tamilnadu">Tamil Nadu (TANGEDCO)</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Property Type</label>
+                        <div class="property-radios">
+                            <label class="radio-label">
+                                <input type="radio" name="prop-type" value="residential" checked> Residential
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="prop-type" value="commercial"> Commercial
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="prop-type" value="industrial"> Industrial
+                            </label>
+                        </div>
+                    </div>
+
+                    <button id="calc-trigger" class="btn btn-yellow w-full">Estimate Real-Time Returns</button>
+                </div>
+
+                <div class="calculator-outputs glass-card">
+                    <h3>Returns Projection Dashboard</h3>
+                    
+                    <div class="calc-capacity-highlight glass-card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0A2540" stroke-width="2">
+                            <path d="M3 4H21V16H3V4Z" stroke-linejoin="round"/><path d="M12 4V16M3 10H21"/>
+                        </svg>
+                        <div>
+                            <span class="highlight-label">RECOMMENDED SYSTEM SIZE</span>
+                            <span class="highlight-value" id="calc-capacity">5.0 kW System</span>
+                        </div>
+                    </div>
+
+                    <!-- Chart display -->
+                    <div class="roi-chart-wrapper">
+                        <canvas id="roi-chart" width="480" height="200"></canvas>
+                    </div>
+
+                    <div class="metrics-grid">
+                        <div class="metric-block">
+                            <span class="metric-label">Estimated Investment</span>
+                            <span class="metric-val" id="calc-investment">₹2.2 Lakhs</span>
+                        </div>
+                        <div class="metric-block">
+                            <span class="metric-label">Estimated Payback</span>
+                            <span class="metric-val text-yellow" id="calc-payback">3.2 Years</span>
+                        </div>
+                        <div class="metric-block">
+                            <span class="metric-label">Estimated Monthly Savings</span>
+                            <span class="metric-val text-green" id="calc-monthly-savings">₹7,650</span>
+                        </div>
+                        <div class="metric-block">
+                            <span class="metric-label">Estimated 25-Yr Profit</span>
+                            <span class="metric-val text-green" id="calc-lifetime-savings">₹22.9 Lakhs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. GOVERNMENT SUBSIDY CENTER SECTION -->
+        <section id="subsidy" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">PM SURYA GHAR SCHEME</span>
+                <h2 class="section-title">Government Subsidy Center</h2>
+            </div>
+
+            <div class="subsidy-grid">
+                <div class="subsidy-info-cards">
+                    <div class="sub-info-card glass-card">
+                        <h4>1. Eligibility Check</h4>
+                        <p>Open to Indian resident households with an active electricity consumer connection and concrete, shadow-free roof layout area.</p>
+                    </div>
+                    <div class="sub-info-card glass-card">
+                        <h4>2. Scheme Benefits</h4>
+                        <p>Claim direct subsidies up to ₹78,000 for residential setups up to 3kW. Benefit from net metering by feeding back excess power.</p>
+                    </div>
+                    <div class="sub-info-card glass-card">
+                        <h4>3. Required Documentation</h4>
+                        <p>Latest utility bills, identification card (PAN/Aadhaar), structural roof certificate, and a verified bank account.</p>
+                    </div>
+                </div>
+
+                <!-- Subsidy Calculator Card -->
+                <div class="subsidy-calc-card glass-card">
+                    <h4>Subsidy Estimator Widget</h4>
+                    <p class="desc">Slide to choose proposed plant capacity (kW).</p>
+                    
+                    <div class="input-group">
+                        <label for="subsidy-capacity">Proposed Solar Capacity: <span id="subsidy-cap-display">3.0 kW</span></label>
+                        <input type="range" id="subsidy-capacity" min="1" max="10" step="1" value="3">
+                    </div>
+
+                    <div class="subsidy-output-panel">
+                        <div class="out-row">
+                            <span>Government Subsidy Payout</span>
+                            <strong id="subsidy-amt-val" class="text-green">₹78,000</strong>
+                        </div>
+                        <div class="out-row">
+                            <span>Your Estimated Net Cost</span>
+                            <strong id="subsidy-net-cost" class="text-yellow">₹1,22,000</strong>
+                        </div>
+                    </div>
+
+                    <div class="app-process">
+                        <h5>Application Process Pipeline:</h5>
+                        <ol>
+                            <li>Register at national portal with DISCOM connection numbers.</li>
+                            <li>Infinity Solar completes structure integration mounting.</li>
+                            <li>DISCOM audits system, fits Net-Meter, and uploads approval.</li>
+                            <li>Subsidy is direct-transferred to your account within 30 days.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AWARDS & CERTIFICATIONS -->
+        <section id="awards" class="section-container active-section">
+            <div class="section-header-block">
+                <span class="section-tag">COMPLIANCE</span>
+                <h2 class="section-title">Awards &amp; Certifications</h2>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card glass-card">
+                    <div class="badge-icon">🏆</div>
+                    <h4>ISO 9001:2015</h4>
+                    <p>Certified Quality Management System for Utility Array Design.</p>
+                </div>
+                <div class="award-card glass-card">
+                    <div class="badge-icon">🌿</div>
+                    <h4>MNRE Approved</h4>
+                    <p>Channel Partner approval for Direct Subsidy schemes across states.</p>
+                </div>
+                <div class="award-card glass-card">
+                    <div class="badge-icon">⭐</div>
+                    <h4>CleanEnergy Award</h4>
+                    <p>Ranked #1 for Smart Telemetry Inverter Dashboard logic.</p>
+                </div>
+                <div class="award-card glass-card">
+                    <div class="badge-icon">🛡️</div>
+                    <h4>ISO 14001</h4>
+                    <p>Global environmental standard conformity certificate.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLIENTS & PARTNERS MARQUEE SLIDER -->
+        <section class="marquee-section">
+            <div class="marquee-wrapper">
+                <div class="marquee-track" id="marquee-slider">
+                    <!-- Smooth infinite moving text/logos -->
+                    <span class="m-item">TATA POWER</span>
+                    <span class="m-item">ADANI SOLAR</span>
+                    <span class="m-item">L&amp;T CONSTRUCTION</span>
+                    <span class="m-item">WAAREE SOLAR</span>
+                    <span class="m-item">AMAZON INDIA CORES</span>
+                    <span class="m-item">INFOSYS HQ</span>
+                    <span class="m-item">RELIANCE IND.</span>
+                    <!-- Repeat for smooth scroll loop -->
+                    <span class="m-item">TATA POWER</span>
+                    <span class="m-item">ADANI SOLAR</span>
+                    <span class="m-item">L&amp;T CONSTRUCTION</span>
+                    <span class="m-item">WAAREE SOLAR</span>
+                    <span class="m-item">AMAZON INDIA CORES</span>
+                    <span class="m-item">INFOSYS HQ</span>
+                    <span class="m-item">RELIANCE IND.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEDIA GALLERY LIGHTBOX -->
+        <section id="media-gallery" class="section-container active-section">
+            <div class="section-header-block">
+                <span class="section-tag">VISUALS LOG</span>
+                <h2 class="section-title">Media &amp; Drone Gallery</h2>
+            </div>
+            
+            <div class="gallery-tabs">
+                <button class="gallery-tab active" onclick="switchGalleryTab('all')">All Media</button>
+                <button class="gallery-tab" onclick="switchGalleryTab('drone')">Drone Footage</button>
+                <button class="gallery-tab" onclick="switchGalleryTab('rooftops')">Rooftops</button>
+            </div>
+
+            <div class="media-grid" id="media-grid-container">
+                <!-- Media cards rendered by JS. Clicking triggers modal lightbox -->
+            </div>
+        </section>
+
+        <!-- 10. SOLAR EDUCATION & BLOG SECTION -->
+        <section id="blog" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">EDUCATION HUB</span>
+                <h2 class="section-title">Latest Articles &amp; Insights</h2>
+            </div>
+
+            <!-- Blog Categories -->
+            <div class="blog-categories">
+                <button class="blog-cat-btn active" onclick="filterBlogs('all')">All Articles</button>
+                <button class="blog-cat-btn" onclick="filterBlogs('tech')">Solar Technology</button>
+                <button class="blog-cat-btn" onclick="filterBlogs('policy')">Policies &amp; Subsidies</button>
+                <button class="blog-cat-btn" onclick="filterBlogs('sustain')">Sustainability</button>
+            </div>
+
+            <!-- Featured Cover Article -->
+            <div class="featured-blog-card glass-card">
+                <div class="featured-blog-info">
+                    <span class="cat-badge">TECHNOLOGY</span>
+                    <h3>TopCon vs Mono PERC: Which Solar Technology Wins in 2026?</h3>
+                    <p>An in-depth engineering breakdown comparing light degradation, temperature coefficients, and bifacial performance of TopCon N-Type cells.</p>
+                    <div class="blog-meta">
+                        <span>5 Min Read</span> • <span>June 15, 2026</span>
+                    </div>
+                    <a href="#contact" class="btn btn-yellow">Read Featured Article</a>
+                </div>
+            </div>
+
+            <!-- Secondary Blogs Grid -->
+            <div class="blogs-list-grid" id="blogs-grid-container">
+                <!-- Rendered dynamically by JS -->
+            </div>
+        </section>
+
+        <!-- 11. CAREERS SECTION -->
+        <section id="careers" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">HR PORTAL</span>
+                <h2 class="section-title">Join The Clean Energy Revolution</h2>
+            </div>
+
+            <div class="careers-grid">
+                <div class="careers-listings" id="job-listings-container">
+                    <!-- Loaded dynamically by JS -->
+                </div>
+
+                <div class="careers-form glass-card">
+                    <h4>Submit Application</h4>
+                    <form id="job-apply-form">
+                        <input type="text" id="apply-name" placeholder="Full Name" required class="glass-input">
+                        <input type="email" id="apply-email" placeholder="Email Address" required class="glass-input">
+                        <input type="tel" id="apply-phone" placeholder="Mobile Number" required class="glass-input">
+                        
+                        <select id="apply-position" class="glass-input">
+                            <option value="pv-engineer">Senior Solar PV Design Engineer (Bangalore)</option>
+                            <option value="sales-manager">Enterprise Sales Manager (Mumbai)</option>
+                            <option value="iot-architect">IoT Systems &amp; Monitoring Architect (Pune)</option>
+                        </select>
+
+                        <div class="resume-dropzone" id="resume-drag">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FDB813" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/>
+                            </svg>
+                            <p>Attach Resume (PDF/DOCX max 5MB)</p>
+                            <input type="file" id="resume-file" style="display:none;">
+                        </div>
+
+                        <textarea id="apply-msg" placeholder="Why do you want to join Infinity Solar?" required class="glass-input" rows="4"></textarea>
+                        
+                        <button type="submit" class="btn btn-yellow w-full">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. CONTACT US, FAQ & NETWORKS -->
+        <section id="contact" class="section-container">
+            <div class="section-header-block">
+                <span class="section-tag">COMMUNICATION</span>
+                <h2 class="section-title">Partner with Infinity Solar</h2>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Lead Form -->
+                <div class="contact-form-container glass-card">
+                    <h4>Free Survey Callback Request</h4>
+                    <form id="lead-capture-form">
+                        <input type="text" id="lead-name" placeholder="Your Name" required class="glass-input">
+                        <input type="tel" id="lead-phone" placeholder="Mobile Number" required class="glass-input">
+                        <input type="email" id="lead-email" placeholder="Email Address" required class="glass-input">
+                        <input type="text" id="lead-location" placeholder="Installation Location (City, State)" required class="glass-input">
+                        <input type="number" id="lead-bill" placeholder="Monthly Electricity Bill (₹)" required class="glass-input">
+                        <textarea id="lead-message" placeholder="Describe your rooftop layout or query details..." required class="glass-input" rows="4"></textarea>
+                        
+                        <button type="submit" class="btn btn-yellow w-full">Submit Query</button>
+                    </form>
+
+                    <div class="quick-call-options">
+                        <a href="https://wa.me/919999999999" target="_blank" class="btn btn-green w-full text-center">WhatsApp Chat</a>
+                        <a href="tel:+919999999999" class="btn btn-outline w-full text-center">Call Direct Helpline</a>
+                    </div>
+                </div>
+
+                <!-- Office cards / Map -->
+                <div class="contact-aux-blocks">
+                    <!-- Styled Google Map Placeholder -->
+                    <div class="styled-map-container glass-card">
+                        <div class="map-graphics">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#FDB813" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>INFINITY HQ CORPORATE HUB - BANGALORE</span>
+                        </div>
+                    </div>
+
+                    <!-- Partner Networks -->
+                    <div class="aux-card glass-card">
+                        <h5>Partner Networks</h5>
+                        <p>Authorized Dealer Network, state-wide distributors, and localized installer crews covering 100+ cities.</p>
+                    </div>
+
+                    <!-- CSR logs -->
+                    <div class="aux-card glass-card">
+                        <h5>CSR &amp; Sustainability logs</h5>
+                        <p>Planted 50,000+ saplings adjacent to solar arrays. Offsetting 4.2M Tons CO₂ emissions annually.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ ACCORDIONS CENTER (30 Items) -->
+            <div class="faq-accordion-container">
+                <h3 class="faq-header-title text-center">Frequently Asked Questions</h3>
+                <div class="faq-accordion-list" id="faq-accordions-list">
+                    <!-- Rendered dynamically by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. ADMIN CONTROL PANEL -->
+        <section id="admin" class="section-container admin-section">
+            <div class="section-header-block">
+                <span class="section-tag">LIVE OPERATIONS</span>
+                <h2 class="section-title">Enterprise Control Console</h2>
+            </div>
+
+            <!-- Admin Overview Metrics Dashboard -->
+            <div class="admin-metrics-row">
+                <div class="metric-card glass-card">
+                    <span class="metric-label">TOTAL REVENUE (FY26)</span>
+                    <strong class="metric-val text-green" id="admin-revenue">₹12.42 Cr</strong>
+                </div>
+                <div class="metric-card glass-card">
+                    <span class="metric-label">CONVERSION PERFORMANCE</span>
+                    <strong class="metric-val text-yellow" id="admin-conversion">18.6 %</strong>
+                </div>
+                <div class="metric-card glass-card">
+                    <span class="metric-label">MONTHLY WEB TRAFFIC</span>
+                    <strong class="metric-val" id="admin-traffic">425,120</strong>
+                </div>
+                <div class="metric-card glass-card">
+                    <span class="metric-label">INSTALLATIONS COMPLETED</span>
+                    <strong class="metric-val text-green" id="admin-capacity">500 MW</strong>
+                </div>
+            </div>
+
+            <!-- Admin Tables Dashboard -->
+            <div class="admin-modules-grid">
+                <div class="admin-module-card glass-card">
+                    <div class="mod-header">
+                        <h4>Live Lead Database CRM</h4>
+                        <span class="live-indicator">● TRANSMITTING LIVE</span>
+                    </div>
+                    <div class="admin-table-wrapper">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>Candidate Name</th>
+                                    <th>Location</th>
+                                    <th>Monthly Bill</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="admin-leads-table">
+                                <!-- Loaded dynamically from state -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="admin-module-card glass-card">
+                    <div class="mod-header">
+                        <h4>Employment Applicants Registry</h4>
+                        <span class="badge" id="applicants-count-badge">3 Candidates</span>
+                    </div>
+                    <div class="admin-table-wrapper">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>Applicant Name</th>
+                                    <th>Position</th>
+                                    <th>Attachment</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="admin-applicants-table">
+                                <!-- Loaded dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEGA FOOTER -->
+        <footer class="site-footer">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">
+                        <svg width="28" height="28" viewBox="0 0 48 48" fill="none">
+                            <path d="M14 16 C8.48 16 4 20.48 4 26 C4 31.52 8.48 36 14 36 C19.04 36 22 31 24 26 C26 21 28.96 16 34 16 C39.52 16 44 20.48 44 26 C44 31.52 39.52 36 34 36 C28.96 36 26 31 24 26 C22 21 19.04 16 14 16 Z" stroke="#FDB813" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="24" cy="26" r="4.5" fill="#FDB813"/>
+                        </svg>
+                        <span>INFINITY SOLAR</span>
+                    </div>
+                    <p class="tagline">Powering the Future with Infinite Clean Energy</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="https://youtube.com" target="_blank">YouTube</a>
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                        <a href="https://facebook.com" target="_blank">Facebook</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Hardware</h5>
+                    <ul>
+                        <li><a href="#products">Mono PERC Panels</a></li>
+                        <li><a href="#products">TopCon N-Type Panels</a></li>
+                        <li><a href="#products">Hybrid Smart Inverters</a></li>
+                        <li><a href="#products">LFP Battery Storage</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Solutions</h5>
+                    <ul>
+                        <li><a href="#solutions">Residential Rooftops</a></li>
+                        <li><a href="#solutions">Commercial Offsets</a></li>
+                        <li><a href="#solutions">Agricultural Pumps</a></li>
+                        <li><a href="#solutions">Solar EV Carports</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#about">Who We Are</a></li>
+                        <li><a href="#about">Vision &amp; Values</a></li>
+                        <li><a href="#careers">Career Center</a></li>
+                        <li><a href="#contact">Authorized Partners</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col newsletter-col">
+                    <h5>Newsletter Signup</h5>
+                    <p>Subscribe to receive clean energy tech briefs and government subsidy notifications.</p>
+                    <form id="newsletter-form">
+                        <input type="email" id="news-email" placeholder="Enter your email" required class="glass-input">
+                        <button type="submit" class="btn btn-yellow">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2026 Infinity Solar India Inc. All Rights Reserved. Built with Apple &amp; Tesla visual standards.</p>
+                <p>Created by <a href="https://haniisoftwaretechnology.in" target="_blank" class="created-by-link">Hanii Software Technologies Pvt Ltd</a></p>
+            </div>
+        </footer>
+
+        <!-- PREMIUM FLOATING COMPONENTS -->
+        <a href="#contact" class="floating-quote-btn" title="Get Free Quote">Get Quote</a>
+        <a href="https://wa.me/919999999999" target="_blank" class="floating-whatsapp-btn" title="WhatsApp Representative">💬</a>
+        <button id="back-to-top" class="back-to-top-btn" title="Back To Top">↑</button>
+
+        <!-- LIGHTBOX MEDIA MODAL -->
+        <div id="gallery-lightbox" class="lightbox-modal">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-content-box">
+                <img id="lightbox-img" src="" alt="Zoom Photo">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
